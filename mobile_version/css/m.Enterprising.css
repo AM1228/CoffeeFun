@@ -1,0 +1,22 @@
+body {background-image: url('wall.jpg');}
+
+.dropdown-menu li a {color: #000 !important;}
+
+.dropdown-menu li a:hover {background-color: red !important;}
+
+.spacer { margin-top: 2%;margin-bottom: 2%;}      
+ 
+.block {min-height: 160px;padding-top: 15px;background-color:#333333  ;width:80%;} 
+
+.center {position: absolute;left: 0;right: 0;margin: auto;}
+
+.comment{position: absolute;top:20px;}
+
+
+
+.form-group{margin-top:5px;}
+
+.col-sm-4 {margin-top:5px;}
+
+
+textarea{resize: none;}

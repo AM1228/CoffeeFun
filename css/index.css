@@ -1,0 +1,11 @@
+body {background-image: url('wall.jpg');}
+
+.spacer {margin-top: 2%;margin-bottom: 2%;}
+
+.block {min-height: 160px;padding-top: 15px;background-color:Orange  ;} 
+
+.center { position: absolute;left: 0;right: 0; margin: auto;  }
+
+#logo {height:50px;}
+
+#mainlogo {height:300px;}

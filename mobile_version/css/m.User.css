@@ -1,0 +1,85 @@
+*                               { margin: 0; padding: 0; }
+body {background-image: url('wall.jpg');}
+h2                              { color: red; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+#page-wrap                      { width: 300px; margin: 30px auto; position: relative; }
+
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 15px 0; }
+#chat-area                      { height: 200px; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
+#name-area span                 { color: red; }
+
+#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid #999; width: 160px; padding: 10px; font: 14px "Lucida Grande", Sans-Serif; float: right; }
+
+
+
+.container {margin: auto;width: 10%;margin-top: 50px;}
+  
+
+
+  
+.spacer {margin-top: 2%;margin-bottom: 2%;}      
+ 
+.block {min-height: 160px;padding-top: 15px;background-color:Orange  ;} 
+.center {position: absolute;left: 0;right: 0;margin: auto;  }
+
+.new {left: 0px;  bottom: 0px;position: relative;}
+
+#mapcss{width:100%;height:50%;border-style: solid;}
+
+/*pop up css*/
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    width:70%;
+    word-wrap: break-word;
+   
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 100%;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+   
+    left: 50%;
+    margin-left: 0px;
+     overflow:scroll;
+    
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}

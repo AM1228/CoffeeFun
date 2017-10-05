@@ -1,0 +1,14 @@
+body {background-image: url('wall.jpg');}
+
+#parent_div_1, #parent_div_2, #parent_div_3 {width: 80%;height: 80%;margin-left: 10%;float: left;overflow:hidden;}
+
+#info {margin-right: 100px;float:left;}
+
+.child_div_1 {float: left;margin-bottom: 5px;}
+
+.spacer {margin-top: 2%;margin-bottom: 2%;}      
+ 
+.block {min-height: 160px;background-color:Orange  ;} 
+.center { position: absolute;left: 0;right: 0; margin: auto;  }
+.navbar-header{width:100%}
+.panel-body{width:100%;}

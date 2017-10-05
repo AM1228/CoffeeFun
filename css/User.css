@@ -1,0 +1,32 @@
+body				{background-image: url('wall.jpg');}
+*                               { margin: 0; padding: 0; }
+
+h2                              { color: red; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+#page-wrap                      { width: 400px; margin: 30px auto; position: fixed;right:0;top:50px; }
+
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 15px 0; }
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
+#name-area span                 { color: red; }
+
+#send-message-area p            { float: left; color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid #999; width: 260px; padding: 10px; font: 14px "Lucida Grande", Sans-Serif; float: right; }
+
+
+.container {margin: auto;width: 10%;margin-top: 50px;}
+  
+#parent_div_1, #parent_div_2, #parent_div_3 {width: 550px;height: 500px;margin-left: 50px;float: left;}
+
+#mapcss{width:30%;height:25%;position:fixed;bottom: 0px;margin-bottom: 0px;opacity: 1;border-style: outset;}
+  
+.spacer { margin-top: 2%;margin-bottom: 2%;}      
+ 
+.block {min-height: 160px;padding-top: 15px;background-color:Orange  ;} 
+.center {position: absolute;left: 0;  right: 0;margin: auto;  }
+
+#btn  {margin-top:10px;}
+.input-group-addon{color:black;}
+#comment {position: absolute; top: 100px; left: 3px; width: 400px; height: 150px; text-shadow: 0 0 3px #FF0000; word-wrap:break-word;}

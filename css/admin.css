@@ -1,0 +1,7 @@
+ body {background-image: url('wall.jpg');}
+
+#parent_div_1 {width: 20%;height: 20%;margin-left: 50px;float: left;word-wrap:break-word;}
+h3{color:blue;}
+h2{color:red;}
+
+#authimg{height:200; width:100%;}
